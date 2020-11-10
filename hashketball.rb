@@ -184,6 +184,8 @@ def player_stats(player_name)
       player_name[:player_name].each do |statistics|
         statistics[:player_name]
         stats = statistics
+      end
+    end
 
 
 
