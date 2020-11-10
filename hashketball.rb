@@ -140,6 +140,7 @@ def num_points_scored(team_player)
 end
 
 def team_colors(another_team_name)
+  team_colors = []
   game_hash.each do |team_info, team_color_info|
     if team_color_info[:team_name] == another_team_name
       team_colors = team_color_info[:colors].to_a
@@ -163,5 +164,6 @@ def shoe_size(name_player)
     end
   end
 end
+
 
 
