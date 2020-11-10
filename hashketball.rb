@@ -182,7 +182,7 @@ def player_stats(player_name)
   game_hash.each do |player, player_stat|
     if player_stat[:player_name] == player_name
       player_name[:player_name].each do |statistics|
-        
+        statistics[:player_name]
 
 
 
