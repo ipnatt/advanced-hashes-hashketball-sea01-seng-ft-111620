@@ -171,7 +171,6 @@ def player_numbers(team_name)
     if player_number[:team_name] == team_name
       return player_number[:player_name].each do |players, teams|
         numbers = teams[:number]
-        players
       end
     end
   end
