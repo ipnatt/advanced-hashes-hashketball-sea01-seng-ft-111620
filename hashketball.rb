@@ -171,6 +171,11 @@ def player_numbers(team_name)
     if player_number[:team_name] == team_name
       player_number[:player_name].each |players, teams|
         numbers << teams[:number]
+      end
+    end
+  end
+  numbers
+end
 
 
 
