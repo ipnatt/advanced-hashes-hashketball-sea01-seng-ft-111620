@@ -192,6 +192,6 @@ end
 def big_shoe_rebounds
   shoes = []
   rebounds = []
-  
+  game_hash.each do |
 
 
