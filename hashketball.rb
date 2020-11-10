@@ -159,13 +159,21 @@ def shoe_size(name_player)
   end
 end
 
-
 def team_names
   game_hash.map do |team, name|
     name[:team_name]
   end
 end
-    
+
+def player_numbers(team_name)
+  numbers = []
+  game_hash.each do |player, player_number|
+    if player_number[:team_name] == team_name
+      numbers = player_number[:number].to_a
+    end
+  end
+  numbers
+end
 
 
 
