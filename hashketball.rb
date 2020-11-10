@@ -171,7 +171,7 @@ def player_numbers(team_name)
     if player_number[:team_name] == team_name
       return player_number[:player_name]
       player_number[:player_name].map do |players, player_count|
-        player_count
+        player_count[:player_name]
     end
   end
   numbers
