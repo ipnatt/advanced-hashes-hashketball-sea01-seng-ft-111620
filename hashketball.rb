@@ -184,8 +184,6 @@ def player_stats(player_name)
     if statistics[:player_name] == player_name
       player_stat = statistics
     end
-    
-    end
   end
   stats
 end
